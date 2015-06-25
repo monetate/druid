@@ -69,7 +69,7 @@
         <apache.curator.version>2.7.0</apache.curator.version>
         <jetty.version>9.2.5.v20141112</jetty.version>
         <druid.api.version>0.3.8</druid.api.version>
-        <jackson.version>2.4.4</jackson.version>
+        <jackson.version>2.3.2</jackson.version>
         <log4j.version>2.2</log4j.version>
         <slf4j.version>1.7.10</slf4j.version>
         <hadoop.compile.version>2.3.0</hadoop.compile.version>
