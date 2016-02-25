@@ -400,6 +400,7 @@ public class ForkingTaskRunner implements TaskRunner, TaskLogStreamer
                                 saveRunningTasks();
                               }
                             }
+                            portFinder.markPortUnused(childPort);
                             if(childChatHandlerPort > 0) {
                               portFinder.markPortUnused(childChatHandlerPort);
                             }
