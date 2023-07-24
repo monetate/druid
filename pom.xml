@@ -1473,7 +1473,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-enforcer-plugin</artifactId>
-                <version>3.0.0</version>
+                <version>3.3.0</version>
                 <executions>
                     <execution>
                         <id>default-cli</id>
@@ -1483,7 +1483,7 @@
                         <configuration>
                             <rules>
                                 <requireMavenVersion>
-                                    <version>3.0.0</version>
+                                    <version>3.3.0</version>
                                 </requireMavenVersion>
                                 <requireJavaVersion>
                                     <version>1.8.0</version>
