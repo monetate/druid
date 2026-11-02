@@ -109,7 +109,7 @@
         <jetty.version>12.1.14</jetty.version>
         <jspecify.version>1.0.1</jspecify.version>
         <jersey.version>1.19.4</jersey.version>
-        <jackson.version>2.22.3</jackson.version>
+        <jackson.version>2.22.4</jackson.version>
         <codehaus.jackson.version>1.9.13</codehaus.jackson.version>
         <log4j.version>2.26.1</log4j.version>
         <mysql.version>26.7.0</mysql.version>
@@ -127,7 +127,7 @@
         <!-- AWS SDK v1 is still used as a transitive dependency by Hadoop and Ranger extensions.
              It should be removed once those extensions are upgraded or dropped (see #19109). -->
         <aws.sdk.v1.version>1.12.797</aws.sdk.v1.version>
-        <aws.sdk.v2.version>2.55.6</aws.sdk.v2.version>
+        <aws.sdk.v2.version>2.56.0</aws.sdk.v2.version>
         <aws.msk.iam.auth.version>2.3.9</aws.msk.iam.auth.version>
         <caffeine.version>3.3.1</caffeine.version>
         <jacoco.version>0.8.15</jacoco.version>
@@ -136,7 +136,7 @@
         <httpclient.version>4.5.14</httpclient.version>
         <okhttp.version>5.5.0</okhttp.version>
         <kubernetes.client.version>25.0.0-legacy</kubernetes.client.version>
-        <zookeeper.version>3.8.7</zookeeper.version>
+        <zookeeper.version>3.9.6</zookeeper.version>
         <checkerframework.version>4.3.1</checkerframework.version>
         <com.google.apis.compute.version>v1-rev20230606-2.0.0</com.google.apis.compute.version>
         <com.google.cloud.libraries-bom.version>26.90.0</com.google.cloud.libraries-bom.version>
@@ -454,7 +454,7 @@
             <dependency>
                 <groupId>org.jooq</groupId>
                 <artifactId>joou-java-6</artifactId>
-                <version>0.9.5</version>
+                <version>0.9.6</version>
             </dependency>
 
             <!-- transitive dependency of kafka-clients and kubernetes client
@@ -538,7 +538,7 @@
             <dependency>
                 <groupId>com.github.fppt</groupId>
                 <artifactId>jedis-mock</artifactId>
-                <version>1.1.19</version>
+                <version>1.1.20</version>
             </dependency>
             <dependency>
               <groupId>io.kubernetes</groupId>
@@ -1172,12 +1172,12 @@
             <dependency>
                 <groupId>org.ow2.asm</groupId>
                 <artifactId>asm</artifactId>
-                <version>9.11</version>
+                <version>9.11.1</version>
             </dependency>
             <dependency>
                 <groupId>org.ow2.asm</groupId>
                 <artifactId>asm-commons</artifactId>
-                <version>9.11</version>
+                <version>9.11.1</version>
             </dependency>
             <dependency>
                 <groupId>org.asynchttpclient</groupId>
