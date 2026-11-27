@@ -129,7 +129,7 @@
         <!-- AWS SDK v1 is still used as a transitive dependency by Hadoop and Ranger extensions.
              It should be removed once those extensions are upgraded or dropped (see #19109). -->
         <aws.sdk.v1.version>1.12.797</aws.sdk.v1.version>
-        <aws.sdk.v2.version>2.58.0</aws.sdk.v2.version>
+        <aws.sdk.v2.version>2.59.0</aws.sdk.v2.version>
         <aws.msk.iam.auth.version>2.4.0</aws.msk.iam.auth.version>
         <caffeine.version>3.3.1</caffeine.version>
         <jacoco.version>0.8.16</jacoco.version>
@@ -138,7 +138,7 @@
         <httpclient.version>4.5.14</httpclient.version>
         <okhttp.version>5.5.1</okhttp.version>
         <kubernetes.client.version>25.0.0-legacy</kubernetes.client.version>
-        <zookeeper.version>3.8.8</zookeeper.version>
+        <zookeeper.version>3.10.0</zookeeper.version>
         <checkerframework.version>4.4.0</checkerframework.version>
         <com.google.apis.compute.version>v1-rev20230606-2.0.0</com.google.apis.compute.version>
         <com.google.cloud.libraries-bom.version>26.93.0</com.google.cloud.libraries-bom.version>
